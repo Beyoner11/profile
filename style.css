@@ -1,0 +1,54 @@
+@font-face{
+    font-family: inter-v;
+    src:url(Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:inter-v ;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 100vh;
+}
+.card{
+    height: 420px;
+    width: 250px;
+    background-color: #ffffff16;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.avatar{
+   margin: 25px 0 15px 0;
+   height: 80px;
+   width: 80px;
+   border-radius: 40px; 
+}
+p{
+    color: #ffffffde;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+.location{
+    color: rgba(206, 252, 0, 0.904);
+    margin-bottom: 20px;
+}
+button{
+    height:30px ;
+    width: 200px ;
+    background-color:#ffffff19 ;
+    border: none;
+    border-radius: 5px;
+    color: #ffffffde;
+    margin-bottom:10px ;
+}
+button:hover{
+    background-color: rgba(206, 252, 0, 0.904);
+    color: #000;
+}
